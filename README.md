@@ -22,3 +22,6 @@ Updates will be added as the bot is further developed
 - Calling Cards
 - Possible Economy (As Further Development Continues)
 
+##API CREDITS
+- Discord.js v14
+
