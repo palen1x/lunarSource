@@ -1,11 +1,13 @@
-# 
-   ___      .____                                     ___    
-   /  /  /\  |    |    __ __  ____ _____ _______   /\  \  \   
-  /  /   \/  |    |   |  |  \/    \\__  \\_  __ \  \/   \  \  
- (  (    /\  |    |___|  |  |   |  \/ __ \|  | \/  /\    )  ) 
-  \  \   \/  |_______ |____/|___|  (____  |__|     \/   /  /  
-   \__\              \/          \/     \/             /__/  
-
+# Lunar
+        _                 _        _______  _______ 
+        ( \      |\     /|( (    /|(  ___  )(  ____ )
+        | (      | )   ( ||  \  ( || (   ) || (    )|
+        | |      | |   | ||   \ | || (___) || (____)|
+        | |      | |   | || (\ \) ||  ___  ||     __)
+        | |      | |   | || | \   || (   ) || (\ (   
+        | (____/\| (___) || )  \  || )   ( || ) \ \__
+        (_______/(_______)|/    )_)|/     \||/   \__/
+                                             
 ## Bot developed by palen1x on discord
 
 ## Disclaimer
@@ -19,4 +21,7 @@ Updates will be added as the bot is further developed
 - Auto Administration
 - Calling Cards
 - Possible Economy (As Further Development Continues)
+
+## API CREDITS
+- Discord.js v14
 
