@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { Client, IntentsBitField, ActivityType } = require("discord.js");
+const eventHandler = require("./handlers/eventHandler");
 
 const client = new Client({
   intents: [
@@ -10,17 +11,6 @@ const client = new Client({
   ],
 });
 
-client.on("ready", (c) => {
-  client.user.setActivity({
-    name: "to my master",
-    type: ActivityType.Listening,
-  });
-
-  console.log(`✔ ${c.user.username} is online!`);
-});
-
-client.on("interactionCreate", (interaction) => {
-  if (!interaction.isChatInputCommand()) return;
-});
+eventHandler(client);
 
 client.login(process.env.TOKEN);
