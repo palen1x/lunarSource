@@ -1,7 +1,7 @@
 module.exports = {
-  name: "sunny",
-  description: "Gey",
-  // devOnly: Boolean,
+  name: "whoami",
+  description: "DADDY-",
+  devOnly: true,
   // testOnly: Boolean,
   //options: Object[],
   //deleted: Boolean,
@@ -11,6 +11,6 @@ module.exports = {
 
     const reply = await interaction.fetchReply();
 
-    interaction.editReply(`<@511656147296714754> is a faggot`);
+    interaction.editReply(`<@781972607209439272>, IS MY DADDY 😩`);
   },
 };
